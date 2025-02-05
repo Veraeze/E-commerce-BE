@@ -1,4 +1,4 @@
-import express from "express";
+import express from 'express';
 import { addToCart, updateCart, getCart } from "../controllers/cartController.js";
 import authUser from "../middleware/auth.js";
 
